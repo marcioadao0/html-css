@@ -1,0 +1,11 @@
+@font-face {
+    font-family: love;
+    src: url(fonts/love\ larry\ ttf.ttf);
+    font-weight: normal;
+    font-style: normal ;
+}
+
+h1 {
+    font-family: love;
+
+}
