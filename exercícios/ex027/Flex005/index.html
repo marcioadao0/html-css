@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centralização em Flexbox</title>
+    <style>
+        #container {
+            height: 99vh;
+            background-color: black;
+            border-radius: 10px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #item {
+            background-color: darkcyan;
+            height: 350px;
+            width: 350px;
+            border-radius: 10px;
+            
+        }
+
+    </style>
 </head>
 <body>
+    <div id="container">
+        <div id="item"></div>
+    </div>
     
 </body>
 </html>
